@@ -1,0 +1,7 @@
+# Digest
+
+Crypto news and analysis.
+
+## Key pages
+- https://cryptosnews.github.io/
+- https://cryptosnews.github.io/about/
