@@ -1,8 +1,8 @@
-# Crypto Structure Report
+# Crypto Evidence Daily
 
-> Daily crypto reporting for builders: exchange mechanics, liquidity shifts, protocol changes and the infrastructure that determines how markets work.
+> Independent daily crypto reporting for researchers and analysts, explaining protocol changes, market structure and policy through primary sources.
 
-Coverage: Market Liquidity, Trading Infrastructure, Settlement Systems, Protocol Economics.
+Coverage: Market Structure, Protocol Upgrades, On-chain Activity, Stablecoin Economics, Crypto Policy.
 
 ## Key pages
 - [Homepage](https://cryptosnews.github.io/): latest reporting and analysis.
