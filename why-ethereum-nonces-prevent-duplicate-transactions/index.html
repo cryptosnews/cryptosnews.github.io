@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en-US" data-mode="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nonce Values: Why They Prevent Duplicate Transactions</title>
+<meta name="description" content="A nonce makes each account transaction usable once, blocking replay at consensus while imposing strict ordering and occasional delays on Ethereum users.">
+<link rel="canonical" href="https://cryptosnews.github.io/why-ethereum-nonces-prevent-duplicate-transactions/">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="theme-color" content="#ffffff">
+<meta name="author" content="The Crypto Evidence Daily Desk"><meta property="og:type" content="article">
+<meta property="og:site_name" content="Crypto Evidence Daily">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Why Ethereum Nonces Prevent Duplicate Transactions">
+<meta property="og:description" content="A nonce makes each account transaction usable once, blocking replay at consensus while imposing strict ordering and occasional delays on Ethereum users.">
+<meta property="og:url" content="https://cryptosnews.github.io/why-ethereum-nonces-prevent-duplicate-transactions/">
+<meta property="og:image" content="https://cryptosnews.github.io/assets/covers/why-ethereum-nonces-prevent-duplicate-transactions-og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Why Ethereum Nonces Prevent Duplicate Transactions"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Why Ethereum Nonces Prevent Duplicate Transactions">
+<meta name="twitter:description" content="A nonce makes each account transaction usable once, blocking replay at consensus while imposing strict ordering and occasional delays on Ethereum users.">
+<meta property="article:published_time" content="2026-09-09T18:41:22+00:00">
+<meta property="article:section" content="On-chain Activity"><meta property="article:tag" content="On-chain Activity">
+<meta property="article:tag" content="Protocol Upgrades">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&amp;family=Public+Sans:wght@400;500;600;700&amp;display=swap">
+<link rel="stylesheet" href="/assets/sdda30596ab.css">
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Crypto Evidence Daily" href="/feed.xml"><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://cryptosnews.github.io/#org",
+      "name": "Crypto Evidence Daily",
+      "url": "https://cryptosnews.github.io/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cryptosnews.github.io/assets/apple-touch-icon.png"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cryptosnews.github.io/assets/og.jpg",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://cryptosnews.github.io/#website",
+      "name": "Crypto Evidence Daily",
+      "url": "https://cryptosnews.github.io/",
+      "publisher": {
+        "@id": "https://cryptosnews.github.io/#org"
+      },
+      "inLanguage": "en-US",
+      "description": "Independent daily crypto reporting for researchers and analysts, explaining protocol changes, market structure and policy through primary sources."
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://cryptosnews.github.io/why-ethereum-nonces-prevent-duplicate-transactions/#webpage",
+      "url": "https://cryptosnews.github.io/why-ethereum-nonces-prevent-duplicate-transactions/",
+      "name": "Nonce Values: Why They Prevent Duplicate Transactions",
+      "isPartOf": {
+        "@id": "https://cryptosnews.github.io/#website"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Article",
+      "@id": "https://cryptosnews.github.io/why-ethereum-nonces-prevent-duplicate-transactions/#article",
+      "headline": "Why Ethereum Nonces Prevent Duplicate Transactions",
+      "isAccessibleForFree": true,
+      "description": "A nonce makes each account transaction usable once, blocking replay at consensus while imposing strict ordering and occasional delays on Ethereum users.",
+      "datePublished": "2026-09-09T18:41:22+00:00",
+      "dateModified": "2026-09-09T18:41:22+00:00",
+      "url": "https://cryptosnews.github.io/why-ethereum-nonces-prevent-duplicate-transactions/",
+      "mainEntityOfPage": {
+        "@id": "https://cryptosnews.github.io/why-ethereum-nonces-prevent-duplicate-transactions/#webpage"
+      },
+      "inLanguage": "en-US",
+      "author": {
+        "@type": "Organization",
+        "@id": "https://cryptosnews.github.io/#org",
+        "name": "The Crypto Evidence Daily Desk"
+      },
+      "publisher": {
+        "@id": "https://cryptosnews.github.io/#org"
+      },
+      "keywords": "On-chain Activity, Protocol Upgrades",
+      "articleSection": "On-chain Activity",
+      "wordCount": 576,
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cryptosnews.github.io/assets/covers/why-ethereum-nonces-prevent-duplicate-transactions.jpg",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://cryptosnews.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Why Ethereum Nonces Prevent Duplicate Transactions",
+          "item": "https://cryptosnews.github.io/why-ethereum-nonces-prevent-duplicate-transactions/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body data-page="post">
+<a class="s04813aa" href="#main">Skip to the article</a>
+<header class="s622526c">
+  <div class="s7222517">
+    <a class="s06d281d" href="/">
+      <span class="s3147e1c" aria-hidden="true">CE</span>
+      <span>Crypto Evidence Daily</span>
+    </a>
+    <p class="sd26a4d6">The mechanics behind the crypto news.</p>
+  </div>
+</header>
+
+<main id="main">
+<article class="s26eeca2 s7222517">
+  <header class="sad4ada1">
+<p class="s115fea6">On-chain Activity</p>    <h1 class="saceecff">Why Ethereum Nonces Prevent Duplicate Transactions</h1>
+    <p class="s75aacd1">A nonce makes each account transaction usable once, blocking replay at consensus while imposing strict ordering and occasional delays on Ethereum users.</p>
+    <div class="s52d68b4">
+      <span>By The Crypto Evidence Daily Desk</span>
+      <time datetime="2026-09-09T18:41:22+00:00">Sep 9, 2026</time>
+      <span>3 min read</span>
+    </div>
+  </header>
+  <figure class="se985f38">
+    <img src="/assets/covers/why-ethereum-nonces-prevent-duplicate-transactions.jpg" alt="Why Ethereum Nonces Prevent Duplicate Transactions" width="1200" height="630" fetchpriority="high" decoding="async">
+  </figure>
+  <div class="s62b32d3">
+    <div class="s48ea102"><p>Ethereum’s account nonce prevents a signed transaction from executing twice by making each sender’s next transaction valid only at one expected sequence number. That long-standing consensus rule gained a new networking role on November 7, 2025, when draft EIP-8077 proposed adding the sender and nonce to transaction announcements so peers can spot competing versions before downloading full transactions. The proposal does not alter execution. It shows why one small counter anchors replay protection, ordering and mempool policy.</p>
+<h2>How does a nonce stop a transaction replay?</h2>
+<p>A validator accepts an Ethereum account transaction only when its nonce equals the sender account’s current nonce, then increments the account counter after execution. Suppose Alice’s on-chain nonce is 12. Her signed transaction numbered 12 can execute; afterward, the account expects 13. Anyone may rebroadcast the original signed bytes, but the replay now carries a stale number and fails the state-validity check.</p>
+<p>This is stronger than merely recognizing a transaction hash. Nodes can discard an identical hash from their local mempools, but local memory is not a consensus guarantee and can be lost on restart. The counter lives in Ethereum state, so every validating node reaches the same answer. For a second plain-language framing, the <a href="https://ameblo.jp/aboutcrypto/entry-12978276607.html" rel="noopener">About Crypto nonce guide</a> explains the same sequencing principle.</p>
+<h2>What happens when two transactions use the same nonce?</h2>
+<p>Only one transaction from an account can be confirmed at a given nonce, even when the recipient, value or calldata differs. That creates a useful replacement mechanism: a wallet can rebroadcast a transaction with the same nonce and a more attractive fee, asking block builders to choose the new version. A so-called cancellation is usually a replacement sending no value to the user’s own address; it does not erase the first version. Whichever valid version lands first consumes the nonce and makes the rival stale.</p>
+<ul>
+<li><strong>The sender</strong> pays gas only for the version included on-chain, although failed application calls can still consume gas.</li>
+<li><strong>Validators and builders</strong> gain a deterministic ordering rule and may prefer the higher-paying replacement.</li>
+<li><strong>Recipients</strong> should treat a pending transfer as provisional because its same-nonce replacement may change the outcome.</li>
+<li><strong>Network peers</strong> avoid executing duplicates, while mempool policies decide which competing version they retain or relay.</li>
+</ul>
+<p>A higher nonce cannot jump a missing lower one. If 13 remains pending, transaction 14 waits even if 14 offers a generous fee. This serialization simplifies consensus but creates “stuck” queues and limits an account’s ability to submit independent operations in parallel.</p>
+<h2>What does a nonce not protect against?</h2>
+<p>An account nonce does not by itself prevent a signature from being replayed on another compatible chain whose account happens to expect the same number. Ethereum’s EIP-155 addressed that separate risk by binding a chain ID into the signed transaction data. Nor does the counter prove the payment’s business purpose or stop a user from signing a malicious call.</p>
+<p>The design also differs from Bitcoin’s unspent-output model, where a transaction consumes specific outputs and a duplicate fails because those outputs are already spent. Ethereum instead serializes activity per sender. Smart-contract accounts can use richer schemes: ERC-4337 splits a nonce into a key and sequence, allowing multiple ordered lanes while preserving one-time use within each lane.</p>
+<p>The verdict is clear: nonces are not cosmetic identifiers but the consensus state that turns a reusable digital signature into a one-shot instruction. Their cost is rigid per-account ordering; their benefit is cheap, deterministic replay protection without requiring validators to remember every historical transaction hash.</p></div>
+    <section class="sda13625">
+      <h2 class="sef83ed4">Topics in this report</h2>
+      <ul class="s192d817">
+        <li>On-chain Activity</li>
+        <li>Protocol Upgrades</li>
+      </ul>
+    </section>
+  </div>
+  <section class="s5e0a203">
+    <div class="sa6911d6">
+      <h2 class="sbc89761">Continue reading</h2>
+    </div>
+    <ul class="se9d2c73">
+      <li><h3><a href="/account-abstraction-makes-ethereum-wallets-programmable/">Account Abstraction Makes Ethereum Wallets Programmable</a></h3></li>
+      <li><h3><a href="/on-chain-data-shows-behavior-not-motive/">On-Chain Data Shows Behavior, Not Motive</a></h3></li>
+      <li><h3><a href="/ipfs-cid-profiles-make-silent-file-changes-easier-to-catch/">IPFS CID Profiles Make Silent File Changes Easier to Catch</a></h3></li>
+      <li><h3><a href="/which-domain-names-resolve-to-wallet-addresses-in-2026/">Which Domain Names Resolve to Wallet Addresses in 2026?</a></h3></li>
+    </ul>
+  </section>
+</article>
+</main>
+
+<footer class="scd1cdd8">
+  <div class="s7222517">
+    <div class="se8cb27d">
+      <div class="s30ecc24">
+        <a class="s06d281d" href="/">
+          <span class="s3147e1c" aria-hidden="true">CE</span>
+          <span>Crypto Evidence Daily</span>
+        </a>
+      </div>
+      <nav class="s85ec6ac" aria-label="Publication">
+        <h2 class="sef83ed4">Publication</h2>
+        <ul>
+          <li><a href="/">Start</a></li>
+          <li><a href="/privacy/">Privacy &amp; terms</a></li>
+          <li><a href="/archive/">All articles</a></li>
+          <li><a href="/about/">About</a></li>
+        </ul>
+      </nav>
+      <nav class="s85ec6ac" aria-label="Coverage">
+        <h2 class="sef83ed4">Coverage</h2>
+        <ul>
+          <li><a href="/topics/market-structure/">Market Structure</a></li>
+          <li><a href="/topics/on-chain-activity/">On-chain Activity</a></li>
+          <li><a href="/topics/protocol-upgrades/">Protocol Upgrades</a></li>
+          <li><a href="/topics/crypto-policy/">Crypto Policy</a></li>
+          <li><a href="/topics/stablecoin-economics/">Stablecoin Economics</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="s1bd8c42">
+      <p class="s0c0b0ea">An independent outlet. Nothing here is financial advice.</p>
+      <p class="s44abdfa">© 2026 Crypto Evidence Daily</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
