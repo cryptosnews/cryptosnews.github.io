@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://cryptosnews.github.io/</loc><lastmod>2026-09-09</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://cryptosnews.github.io/standard-chartered-brings-spot-bitcoin-and-ether-to-uae-desks/</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://cryptosnews.github.io/circle-agrees-to-buy-tazapay-for-100-market-payout-reach/</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://cryptosnews.github.io/24x-executes-first-spot-bitcoin-trade-with-standard-chartered/</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://cryptosnews.github.io/sofi-and-payward-tie-24-7-dollar-settlement-to-kraken/</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://cryptosnews.github.io/bitcoin-nears-79-000-as-zcash-etf-tops-500-million/</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -8,7 +10,9 @@
 <url><loc>https://cryptosnews.github.io/cronos-rewinds-two-hours-to-recover-111-million/</loc><lastmod>2026-09-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://cryptosnews.github.io/topics/market-structure/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
 <url><loc>https://cryptosnews.github.io/topics/on-chain-activity/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
+<url><loc>https://cryptosnews.github.io/topics/crypto-policy/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
 <url><loc>https://cryptosnews.github.io/topics/protocol-upgrades/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
+<url><loc>https://cryptosnews.github.io/topics/stablecoin-economics/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
 <url><loc>https://cryptosnews.github.io/archive/</loc><priority>0.3</priority></url>
 <url><loc>https://cryptosnews.github.io/about/</loc><priority>0.3</priority></url>
 <url><loc>https://cryptosnews.github.io/privacy/</loc><priority>0.3</priority></url>
