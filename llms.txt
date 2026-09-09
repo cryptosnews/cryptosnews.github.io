@@ -1,7 +1,10 @@
-# Digest
+# Crypto Structure Report
 
-Crypto news and analysis.
+> Daily crypto reporting for builders: exchange mechanics, liquidity shifts, protocol changes and the infrastructure that determines how markets work.
+
+Coverage: Market Liquidity, Trading Infrastructure, Settlement Systems, Protocol Economics.
 
 ## Key pages
-- https://cryptosnews.github.io/
-- https://cryptosnews.github.io/about/
+- [Homepage](https://cryptosnews.github.io/): latest reporting and analysis.
+- [About](https://cryptosnews.github.io/about/): editorial scope, independence, sourcing and corrections.
+- [Archive](https://cryptosnews.github.io/archive/): everything published.
